@@ -1,0 +1,145 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.content {
+  display: flex;
+}
+
+.welcome {
+  margin-top: 100px;
+  position: relative;
+  right: 60px;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  border-radius: 4px;
+  margin: 15px 10px;
+  padding: 20px;
+}
+
+.contact-about {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.contact-about a {
+  border: 1px solid var(--primary-color);
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 20px;
+  padding: 20px 15px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.about {
+  color: var(--primary-color);
+}
+
+.contact {
+  color: white;
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.back-link {
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+
+.mail {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.mail:hover {
+  text-decoration: underline;
+}
+
+.primary-link {
+  background-color: var(--primary-color);
+  padding: 20px;
+  color: white;
+  border-radius: 4px;
+  margin-top: 5px;
+  box-shadow: var(--box-shadow);
+}
+a:hover {
+  color: #0a58ca;
+}
+
+.about-link {
+  margin-top: 100px;
+}
+
+.images {
+  box-shadow: var(--box-shadow);
+}
+
+.pic {
+  max-width: 100%;
+  height: auto;
+}
+
+.hand-pic {
+  display: flex;
+  justify-content: center;
+}
+
+.hand {
+  position: relative;
+  top: 57px;
+  left: -20px;
+  transform: scale(0.2);
+}
+
+.flag-pic {
+  display: flex;
+  justify-content: center;
+}
+
+.flag {
+  transform: scale(0.2);
+  position: relative;
+  top: -45px;
+  right: 10px;
+}
+
+.career {
+  position: relative;
+  right: 58px;
+}
