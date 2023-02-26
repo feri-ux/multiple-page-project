@@ -20,7 +20,6 @@ h1 {
 
 h2 {
   font-size: 48px;
-  text-align: center;
 }
 
 h3 {
@@ -84,6 +83,7 @@ h3 {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  margin-bottom: 120px;
 }
 
 .mail:hover {
@@ -142,4 +142,30 @@ a:hover {
 .career {
   position: relative;
   right: 58px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  .mail{
+    font-size: 22px;
+  }
 }
